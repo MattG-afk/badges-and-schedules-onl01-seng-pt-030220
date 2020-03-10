@@ -9,7 +9,7 @@ def batch_badge_creator(attendee)
     badges<< badge_maker(name)
 end
 badges
-
+binding.pry
 end
 def assign_rooms(attendee)
   assign=[]
