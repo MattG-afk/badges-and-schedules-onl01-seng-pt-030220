@@ -20,8 +20,8 @@ end
 def printer(attendee)
   binding.pry
   print= []
-  print.each do |name|
-  puts batch_badge_creator(attendee)
+  print.ebatch_badge_creator(attendee)ach do |name|
+  puts 
   puts assign_rooms(attendee)
 end
 print
