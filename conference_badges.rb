@@ -25,5 +25,3 @@ end
   puts 
   puts assign_rooms(attendee)
 end
-print
-end
