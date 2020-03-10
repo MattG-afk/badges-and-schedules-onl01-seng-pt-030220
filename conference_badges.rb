@@ -17,7 +17,7 @@ assign
 end
 def printer(attendee)
   print= []
-  
+  print.each do [pri]
   puts batch_badge_creator(attendee)
   puts assign_rooms(attendee)
 end
