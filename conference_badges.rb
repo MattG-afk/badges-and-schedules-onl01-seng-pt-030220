@@ -9,7 +9,6 @@ def batch_badge_creator(attendee)
     badges<< badge_maker(name)
 end
 badges
-binding.pry
 end
 def assign_rooms(attendee)
   assign=[]
@@ -19,6 +18,7 @@ end
 assign
 end
 def printer(attendee)
+  
   print= []
   print.each do |name|
   puts batch_badge_creator(attendee)
