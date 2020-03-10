@@ -19,8 +19,8 @@ assign
 end
 def printer(attendee)
   binding.pry
-  print= []
-  print.ebatch_badge_creator(attendee)ach do |name|
+  batch_badge_creator(attendee).each do |name|
+end
   puts 
   puts assign_rooms(attendee)
 end
