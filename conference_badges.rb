@@ -15,11 +15,4 @@ def assign_rooms(attendee)
 end
 assign
 end
-def printer(attendees)
-  speakers.each_with_index do |attendees|
-  puts batch_badge_creator(attendees)
-  puts assign_rooms(attendees)
-end
-batch_badge_creator
-assign_rooms
-end
+def printer
