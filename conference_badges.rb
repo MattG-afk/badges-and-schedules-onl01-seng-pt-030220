@@ -18,7 +18,7 @@ end
 assign
 end
 def printer(attendee)
-  
+  binding.pry
   print= []
   print.each do |name|
   puts batch_badge_creator(attendee)
